@@ -54,6 +54,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    width: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -146,7 +148,6 @@ footer nav a {
 }
 
 .topbar{
-    border:1px solid red;
     border-top:20px solid black;
     height:5rem;
     width:800px;
@@ -154,9 +155,9 @@ footer nav a {
     display:flex;
     justify-content: center;
     padding-top: 1%;
+    margin: 0 auto;
 }
 .lambda{
-    border: 1px solid aquamarine;
     align-items: center;
     justify-content: left;
     width: 20%;
@@ -232,3 +233,17 @@ h1{
   #dodgerblue{
     background-color:  dodgerblue;
   }
+
+  /* About Page */
+  .container about-page{
+    display:flex;
+  }
+  .about .stratey .how-we-work .places-we-work{
+    width: 45%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border:1px solid black;
+    display: inline-block;
+  }
+
+  
