@@ -148,19 +148,20 @@ footer nav a {
 }
 
 .topbar {
-    border-top:20px solid black;
     height:5rem;
     width:800px;
     align-self: center;
     display:flex;
-    justify-content: center;
     padding-top: 1%;
     margin: 0 auto;
+    border: 1px solid black;
 }
 .lambda{
-    align-items: center;
+    align-items: left;
     justify-content: left;
     width: 20%;
+    height:50px;
+    border:1px solid black;
 }
 
 h1{
@@ -172,6 +173,8 @@ h1{
     margin: 0;
     padding: 0;
     display:flex;
+    border:1px solid black;
+    width:600px;
     justify-content: space-evenly;
 }
 
@@ -180,8 +183,8 @@ h1{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size:1.5rem;
-    align-items: center;
+    font-size:1rem;
+    justify-self: center;
 }
 
 .jumbo{
