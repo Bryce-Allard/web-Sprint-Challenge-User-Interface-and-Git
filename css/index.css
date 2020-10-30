@@ -66,12 +66,13 @@ p {
     line-height: 1.4;
 }
 
-nav{
+header nav{
     display:flex;
     align-items: baseline;
-    width:80%;
-    margin:2% 5%;
-    justify-content: space-between;
+    width:800px;
+    /* margin:2% 5%; */
+    justify-content: space-evenly;
+    background-color: aqua;
 }
 
 .logo{
@@ -79,7 +80,15 @@ nav{
 }
 
 .links{
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links a{
+    justify-content: space-evenly;
+    color:black;
+    text-decoration: none;
+    padding-right;
 }
 
 .jumbo{
@@ -87,6 +96,7 @@ nav{
     justify-content: center;
     margin:5% 10%;
     width:80%;
+    
 }
 
 .container {
@@ -133,6 +143,46 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#b1{
+    background-color: teal;
+}
+
+#b2{
+    background-color:gold;
+}
+
+#b3{
+    background-color:cadetblue ;
+}
+
+#b4{
+    background-color:coral ;
+}
+
+#b5{
+    background-color:crimson ;
+}
+
+#b6{
+    background-color:forestgreen ;
+}
+
+#b7{
+    background-color:darkorchid ;
+}
+
+#b8{
+   background-color:hotpink ; 
+}
+
+#b9{
+    background-color:indigo ;
+}
+
+#b10{
+    background-color:dodgerblue ;
 }
 
 .bottom-content {
