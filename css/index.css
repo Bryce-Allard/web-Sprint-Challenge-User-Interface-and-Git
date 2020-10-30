@@ -68,11 +68,11 @@ p {
 
 header nav{
     display:flex;
-    align-items: baseline;
+    align-items: center;
     width:800px;
     /* margin:2% 5%; */
     justify-content: space-between;
-    margin:1% 7%;
+    margin:1% auto;
 }
 
 .logo{
