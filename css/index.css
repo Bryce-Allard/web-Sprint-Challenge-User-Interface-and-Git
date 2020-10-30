@@ -218,3 +218,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* about html */
+.title{
+    border-bottom: 1px dotted black;
+    padding: 3% 0%;
+    margin-bottom: 5%;
+}
+
+.row1{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.strategy{
+    width:48%;
+    border-bottom: 2px dotted black;
+    padding-bottom: 2%;
+}
+
+.howwework{
+    width:48%;
+    justify-content: flex-end;
+    border-bottom:2px dotted black;
+    padding-bottom:2%;
+}
+
+.row2{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.placeswework{
+    width:48%;
+    border-bottom: 2px dotted black;
+    padding-bottom: 2%;
+}
+
+.collaboration{
+    width:48%;
+    justify-content: flex-end;
+    border-bottom:2px dotted black;
+    padding-bottom:2%;
+}
+
+
+.learn{
+    padding:2%;
+    border-radius: 10px;
+    margin-top:3%;
+    background-color: whitesmoke;
+}
+
+.bottom{
+    margin-bottom: 3%;
+}
