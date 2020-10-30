@@ -66,6 +66,29 @@ p {
     line-height: 1.4;
 }
 
+nav{
+    display:flex;
+    align-items: baseline;
+    width:80%;
+    margin:2% 5%;
+    justify-content: space-between;
+}
+
+.logo{
+    /* justify-content: left; */
+}
+
+.links{
+    justify-content: space-between;
+}
+
+.jumbo{
+    display:flex;
+    justify-content: center;
+    margin:5% 10%;
+    width:80%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
